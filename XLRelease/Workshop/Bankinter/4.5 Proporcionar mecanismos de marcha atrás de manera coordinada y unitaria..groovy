@@ -1,9 +1,9 @@
 // Exported from:        http://kubuntu:5516/#/templates/Folder69f85172321f46a89580c80c09103603-Folder0c3ec44ba3194f6d932dc97005e007c5-Release3eb24cc0cc454ec38b975a3071bc9d1e/releasefile
 // XL Release version:   9.0.6
-// Date created:         Wed Oct 16 15:46:57 CEST 2019
+// Date created:         Wed Oct 16 18:43:11 CEST 2019
 
 xlr {
-  template('4.5 Proporcionar mecanismosssss de marcha atrás de manera coordinada y unitaria.') {
+  template('4.5 Proporcionar mecanismos de marcha atrás de manera coordinada y unitaria.') {
     folder('Workshop/Bankinter')
     variables {
       stringVariable('css') {
@@ -75,7 +75,7 @@ xlr {
         color '#0099CC'
         tasks {
           userInput('Selección de versiones CSS implicadas en el despliegue') {
-            description 'Please enter the required information below.'
+            description 'Selección versión'
             owner 'admin'
             variables {
               variable 'css'
