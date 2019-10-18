@@ -3,7 +3,7 @@
 // Date created:         Wed Oct 16 18:43:11 CEST 2019
 
 xlr {
-  template('4.5 Proporcionar mecanismos de marcha atrás de manera coordinada y unitaria.') {
+  template('4.5 PRUEBA BANKINTER Proporcionar mecanismos de marcha atrás de manera coordinada y unitaria.') {
     folder('Workshop/Bankinter')
     variables {
       stringVariable('css') {
