@@ -1,6 +1,6 @@
 // Exported from:        http://kubuntu:5516/#/templates/Folder69f85172321f46a89580c80c09103603-Folder0c3ec44ba3194f6d932dc97005e007c5-Release3eb24cc0cc454ec38b975a3071bc9d1e/releasefile
 // XL Release version:   9.0.6
-// Date created:         Sat Oct 19 10:18:05 CEST 2019
+// Date created:         Sat Oct 19 10:27:22 CEST 2019
 
 xlr {
   template('4.05 Proporcionar mecanismos de marcha atrás de manera coordinada y unitaria.') {
@@ -69,7 +69,7 @@ xlr {
                 'For more information, please read [Perform canary deployments](https://docs.xebialabs.com/xl-release/how-to/perform-canary-deployments.html) on our documentation site.'
     scheduledStartDate Date.parse("yyyy-MM-dd'T'HH:mm:ssZ", '2018-01-23T09:00:00+0100')
     scriptUsername 'admin'
-    scriptUserPassword '{aes:v0}PBvQdT2bTc48MARteqxCJc+bEchm2gDpOwisuckdCHY='
+    scriptUserPassword '{aes:v0}6IXu0YqttEp2xEYgc1obFTU+MaWIoMtaGQYsr1bf880='
     phases {
       phase('SELECCIÓN VERSIONES') {
         color '#0099CC'
@@ -77,7 +77,10 @@ xlr {
           userInput('Selección de versiones a desplegar') {
             description '### Seleccione la versión de los componentes a desplegar\n' +
                         '\n' +
-                        'En este ejemplo se recoge la `versión actual` de forma manual. Pero esta información habría que obtenerla de la herramienta de despliegue utilizada.'
+                        'En este ejemplo se recoge la `versión actual` de forma manual. Pero esta información habría que obtenerla de:\n' +
+                        '\n' +
+                        '* La **herramienta de despliegue** utilizada.\n' +
+                        '* Del propio **XL Release** (si todos los despliegues se inician desde una template)'
             variables {
               variable 'css'
               variable 'css_actual'
