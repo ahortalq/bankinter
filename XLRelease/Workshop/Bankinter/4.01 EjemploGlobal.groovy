@@ -1,6 +1,6 @@
 // Exported from:        http://kubuntu:5516/#/templates/Folder69f85172321f46a89580c80c09103603-Folder0c3ec44ba3194f6d932dc97005e007c5-Releaseb47781a106914ca0908f583552242016/releasefile
 // XL Release version:   9.0.6
-// Date created:         Tue Oct 22 19:16:38 CEST 2019
+// Date created:         Tue Oct 22 19:48:49 CEST 2019
 
 xlr {
   template('4.01 EjemploGlobal') {
@@ -358,7 +358,7 @@ xlr {
           manual('Aprobación pase a PREPRODUCCIÓN') {
             description '### Completar esta tarea para iniciar el despliegue en el entorno de PRE.\n' +
                         '\n' +
-                        'Una finalizada se iniciará el despliegue automático a PRE'
+                        'Una vez finalizada se iniciará el despliegue automático a PRE'
             owner 'jcla'
             locked true
           }
