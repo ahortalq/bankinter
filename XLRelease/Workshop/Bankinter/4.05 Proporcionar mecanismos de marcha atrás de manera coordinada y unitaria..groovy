@@ -1,6 +1,6 @@
 // Exported from:        http://kubuntu:5516/#/templates/Folder69f85172321f46a89580c80c09103603-Folder0c3ec44ba3194f6d932dc97005e007c5-Release3eb24cc0cc454ec38b975a3071bc9d1e/releasefile
 // XL Release version:   9.0.6
-// Date created:         Tue Oct 22 10:18:02 CEST 2019
+// Date created:         Tue Oct 22 10:19:39 CEST 2019
 
 xlr {
   template('4.05 Proporcionar mecanismos de marcha atrás de manera coordinada y unitaria.') {
@@ -76,7 +76,7 @@ xlr {
                 'For more information, please read [Perform canary deployments](https://docs.xebialabs.com/xl-release/how-to/perform-canary-deployments.html) on our documentation site.'
     scheduledStartDate Date.parse("yyyy-MM-dd'T'HH:mm:ssZ", '2018-01-23T09:00:00+0100')
     scriptUsername 'admin'
-    scriptUserPassword '{aes:v0}6IXu0YqttEp2xEYgc1obFTU+MaWIoMtaGQYsr1bf880='
+    scriptUserPassword '{aes:v0}oiA8AanoseyOjMwBQQmLQ32KjCB7BZA6VR9wsDzlREQ='
     phases {
       phase('SELECCIÓN VERSIONES Y ENTORNO') {
         color '#0099CC'
