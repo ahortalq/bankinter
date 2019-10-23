@@ -1,6 +1,6 @@
 // Exported from:        http://kubuntu:5516/#/templates/Folder69f85172321f46a89580c80c09103603-Folder0c3ec44ba3194f6d932dc97005e007c5-Releaseb47781a106914ca0908f583552242016/releasefile
 // XL Release version:   9.0.6
-// Date created:         Tue Oct 22 19:54:19 CEST 2019
+// Date created:         Wed Oct 23 07:17:21 CEST 2019
 
 xlr {
   template('Microservicio') {
@@ -10,7 +10,7 @@ xlr {
         required false
         showOnReleaseStart false
         label 'sha'
-        value 'sha'
+        value '13b594c6a3eaa988ec7f130bc81438872d00bb04'
       }
       stringVariable('email') {
         required false
@@ -46,7 +46,7 @@ xlr {
         required false
         showOnReleaseStart false
         label 'ms-version'
-        value '1.0.0'
+        value '32.0.0-B17'
       }
       stringVariable('microservice-application') {
         required false
@@ -595,7 +595,7 @@ xlr {
             jiraServer 'Jira 7.13.0'
             query 'project = "Voting App" AND status in ("En integración", "En Preproducción", "Autorizado paso a producción", "En Producción")'
           }
-          jiraQueryTile('JIRA issues') {
+          jiraQueryTile('Producción') {
             row 0
             col 2
             jiraServer 'Jira 7.13.0'
