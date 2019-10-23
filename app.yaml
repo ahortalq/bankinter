@@ -1,0 +1,10 @@
+# xl apply -f app.yaml --values app=javascript,ver=2.4,env=pre
+apiVersion: xl-release/v1
+kind: Release
+spec:
+  name: !format Release %env% App %app%
+  template: Workshop/Bankinter/4.03 Permitir conocer en todo momento las versiones de los artefactos de cada entorno.
+  variables:
+    application: !format bankinter-%app%
+    version: !value ver
+    environment: !format application-bankinter-%app%-%env%
