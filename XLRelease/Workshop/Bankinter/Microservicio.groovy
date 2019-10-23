@@ -1,6 +1,6 @@
 // Exported from:        http://kubuntu:5516/#/templates/Folder69f85172321f46a89580c80c09103603-Folder0c3ec44ba3194f6d932dc97005e007c5-Releaseb47781a106914ca0908f583552242016/releasefile
 // XL Release version:   9.0.6
-// Date created:         Wed Oct 23 07:17:21 CEST 2019
+// Date created:         Wed Oct 23 08:19:20 CEST 2019
 
 xlr {
   template('Microservicio') {
@@ -502,6 +502,14 @@ xlr {
                 }
               }
               custom('Despliegue de la versión ${ms-version} del microservicio ${microservice-name} en el entorno PRO') {
+                facets {
+                  facet('udm.DeploymentTaskFacet') {
+                    variableMapping 'version':'${ms-version}'
+                    applicationId 'Configuration/environmentManagement/Application1747761249c8455caa12eb37d171be01'
+                    environmentId 'Configuration/environmentManagement/Environment9aac8ccb1bba4920943b442dfb91c9ea'
+                  }
+                }
+                checkAttributes true
                 script {
                   type 'xldeploy.Deploy'
                   server 'XL Deploy Server'
