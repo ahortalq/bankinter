@@ -1,6 +1,6 @@
 // Exported from:        http://kubuntu:5516/#/templates/Folder69f85172321f46a89580c80c09103603-Folder0c3ec44ba3194f6d932dc97005e007c5-Release3eb24cc0cc454ec38b975a3071bc9d1e/releasefile
 // XL Release version:   9.0.6
-// Date created:         Thu Nov 21 18:19:45 CET 2019
+// Date created:         Fri Nov 22 13:25:52 CET 2019
 
 xlr {
   template('4.05 Proporcionar mecanismos de marcha atrás de manera coordinada y unitaria.') {
@@ -95,6 +95,12 @@ xlr {
               variable 'javascript_actual'
               variable 'java'
               variable 'java_actual'
+            }
+          }
+          custom('Prueba para Reale') {
+            script {
+              type 'jenkins.Build'
+              
             }
           }
         }
